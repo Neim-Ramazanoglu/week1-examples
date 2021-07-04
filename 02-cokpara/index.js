@@ -19,7 +19,7 @@ document.querySelector('.container')
     <h4 id="name">${product.name}</h4>
     <h4 id="price">${product.price} TL   </h4>
     <button onmouseover="amount(this)" onmouseout="amountout(this)" onclick="sepeteEkle(this)" id="${product.id}">Sepete Ekle</button>
-    <span id="amount"></span>
+    <br><span id="amount"></span>
     <br><span id="increase" ></span>  <span id="text" style="display:none"> Adet Eklediniz</span>
   </div>
   </div>`, ''
